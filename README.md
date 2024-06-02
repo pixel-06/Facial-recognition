@@ -13,6 +13,14 @@ pip install Flask
 Install other dependencies:
 pip install numpy pandas scikit-learn joblib
 
+Install OpenCV with Contrib modules:
+The opencv-contrib-python package includes additional modules, including the highgui module which provides GUI functionalities.
+
+Install it with pip:
+pip install opencv-contrib-python
+pip install opencv-python-headless
+pip install numpy matplotlib
+
 Run the Flask App:
 Save the script to a file, e.g., app.py, and run it with:
 python app.py
